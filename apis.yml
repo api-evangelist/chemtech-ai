@@ -1,7 +1,24 @@
 aid: chemtech-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chemtech-ai.png
 name: ChemTech AI
-description: ChemTech AI is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ChemTech AI is an industrial software company, founded in 2018 and headquartered in New York,
+  that builds autonomous AI control systems for chemical production plants. Its software continuously
+  optimizes manufacturing by autonomously adjusting DCS setpoints to push plants to their maximum safe
+  capacity, sustaining peak production while reducing emissions and losses. The platform is applied across
+  chemical processes including ammonia, nitric acid, phosphoric acid, sulfuric acid, methanol, ethanol, and
+  polyethylene, serving the chemicals, food, cosmetics, and oil and gas sectors. ChemTech AI is a portfolio
+  company of 500 Global. No public developer API, SDKs, or developer portal are currently published.
 url: https://raw.githubusercontent.com/api-evangelist/chemtech-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Industrial Automation
+- Chemical Manufacturing
+- Process Optimization
+- Autonomous Control
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,14 @@ maintainers:
 common:
 - type: Website
   url: https://chmtch.com
+- type: TermsOfService
+  url: https://www.iubenda.com/terms-and-conditions/48349350
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/48349350
+- type: DomainSecurity
+  url: security/chemtech-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
